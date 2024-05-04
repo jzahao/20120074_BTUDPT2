@@ -1,0 +1,87 @@
+.tasks-page-container {
+  height: calc(100vh - 92px);
+  overflow-y: auto;
+}
+
+.tasks-page-content {
+  height: 100%;
+  margin: 0 auto;
+  padding: 52px 100px;
+}
+
+.search-container {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.search-field {
+  width: 440px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 12px;
+  color: #4e4e4e;
+  box-shadow: 0px 0px 8px rgb(220, 220, 220);
+}
+
+.search-field ion-icon {
+  font-size: 20px;
+}
+
+.search-field input {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  color: #4e4e4e;
+}
+
+.btn-delete-all-selected-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.btn-delete-all-selected {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px rgb(220, 220, 220);
+  background-color: #fff;
+  color: #ff6565;
+  transition: all 0.4s ease;
+  position: relative;
+  padding: 8px 16px;
+}
+
+.btn-delete-all-selected:hover {
+  color: white;
+  background-color: #ff6565;
+}
+
+.btn-delete-all-selected span {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.th-check-box input,
+.td-check-box input {
+  display: block;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

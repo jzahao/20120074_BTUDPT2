@@ -1,0 +1,46 @@
+.update-task-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 100px 0;
+}
+
+.update-task-page-container .btn-save {
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
+  border: none;
+  border-radius: 6px;
+  margin-top: 24px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.haft-width {
+  width: 49%;
+  display: inline-flex;
+}
+
+.input-field input:disabled {
+  color: transparent;
+}
+
+.error-line {
+  font-family: "Barlow", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(162, 162, 162);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 6px;
+}
+
+.error-line ion-icon {
+  font-size: 200px;
+}

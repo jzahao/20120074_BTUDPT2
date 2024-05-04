@@ -1,0 +1,24 @@
+.add-task-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 100px;
+}
+
+.add-task-page-container .btn-add {
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
+  border: none;
+  border-radius: 6px;
+  margin-top: 24px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.haft-width {
+  width: 49%;
+  display: inline-flex;
+}

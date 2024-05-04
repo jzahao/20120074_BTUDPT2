@@ -1,0 +1,50 @@
+.categories-page-container {
+  height: calc(100vh - 92px);
+  overflow-y: auto;
+}
+
+.categories-page-content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 52px 0;
+}
+
+.categories-page-content .add-categoty-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 2%;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.add-categoty-container .input-field {
+  width: 78%;
+  margin-bottom: 0;
+}
+
+.add-categoty-container .input-field label {
+  font-size: 16px;
+}
+
+.add-categoty-container .input-field input {
+  padding: 10px;
+}
+
+.add-categoty-container .btn-container {
+  width: 20%;
+}
+
+.add-categoty-container .btn-add {
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  cursor: pointer;
+}

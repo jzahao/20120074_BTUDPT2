@@ -1,0 +1,102 @@
+.table-container {
+  max-height: 480px;
+  border: 2px dashed #11998e;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+table {
+  font-family: "Barlow", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 11px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+table td,
+table th {
+  padding: 4px 8px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+tbody tr:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(17, 153, 142, 0.1),
+    rgba(56, 239, 126, 0.1)
+  );
+}
+
+thead tr th:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+thead tr:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+tbody tr td:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+
+tbody tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+thead tr {
+  background-image: linear-gradient(to bottom right, #11998e, #38ef7d);
+}
+
+table th {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+table td {
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+
+.btn-action {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.btn-action ion-icon {
+  font-size: 20px;
+}
+
+.btn-action.view,
+.btn-action.save {
+  background-color: #19e969;
+  margin-right: 4px;
+}
+
+.btn-action.edit {
+  background-color: #537ce3;
+  margin-right: 4px;
+}
+
+.btn-action.delete {
+  background-color: #ff6565;
+}
+
+.btn-action:hover {
+  opacity: 0.6;
+}
